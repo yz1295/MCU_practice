@@ -1,0 +1,10 @@
+../Core/Src/main_app.c:28:5:main	8	static
+../Core/Src/main_app.c:50:6:SystemClock_Config_HSE	96	static
+../Core/Src/main_app.c:138:6:GPIO_Init	40	static
+../Core/Src/main_app.c:162:6:TIMER6_Init	8	static
+../Core/Src/main_app.c:178:6:RTC_Init	8	static
+../Core/Src/main_app.c:199:6:RTC_ConfigureTimeDate	32	static
+../Core/Src/main_app.c:238:6:UART2_Init	8	static
+../Core/Src/main_app.c:259:6:HAL_TIM_PeriodElapsedCallback	16	static
+../Core/Src/main_app.c:269:6:HAL_GPIO_EXTI_Callback	104	static
+../Core/Src/main_app.c:297:6:Error_handler	4	static

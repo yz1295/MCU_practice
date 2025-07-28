@@ -1,0 +1,6 @@
+../Core/Src/main_app.c:76:6:return_capital	3
+../Core/Src/main_app.c:92:5:main	2
+../Core/Src/main_app.c:154:6:SystemClock_Config	3
+../Core/Src/main_app.c:210:13:MX_USART2_UART_Init	2
+../Core/Src/main_app.c:235:13:MX_GPIO_Init	1
+../Core/Src/main_app.c:274:6:_Error_Handler	1
