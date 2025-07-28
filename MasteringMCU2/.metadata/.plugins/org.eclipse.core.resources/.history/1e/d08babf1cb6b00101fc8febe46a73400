@@ -282,24 +282,6 @@ static void MX_GPIO_Init(void)
 /* USER CODE BEGIN 4 */
 void CAN_Filter_Congif(void)
 {
-	CAN_FilterTypeDef can1_filter_init;
-	can1_filter_init.FilterActivation = ENABLE;
-	can1_filter_init.FilterBank =0;
-	can1_filter_init.FilterFIFOAssignment = CAN_FILTER_FIFO0;
-	can1_filter_init.FilterIdHigh=0x0000;
-	can1_filter_init.FilterIdLow =0x0000;
-	can1_filter_init.FilterMaskIdHigh = 0x0000;
-	can1_filter_init.FilterIdLow =0x0000;
-	can1_filter_init.FilterMode = CAN_FILTERMODE_IDMASK;
-	can1_filter_init.FilterScale =  CAN_FILTERSCALE_32BIT;
-
-	if(HAL_CAN_ConfigFilter(&hcan1, &can1_filter_init)!=HAL_OK)
-	{
-		Error_Handler();
-	}
-
-
-
 
 
 
